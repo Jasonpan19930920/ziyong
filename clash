@@ -17,7 +17,6 @@ dns:
 proxies:
   - {name: 东京, server: 47.245.5.234, port: 80, client-fingerprint: chrome, type: vless, uuid: 6baf5b37-cf47-420d-8e84-82c4e92078ef, tls: false, tfo: false, servername: jasonpyl.pyl19930920.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jasonpyl.pyl19930920.workers.dev}}}
   - {name: 新加坡, server: 8.222.222.64, port: 80, client-fingerprint: chrome, type: vless, uuid: 65e364b3-8d0b-410e-b3cc-f345845834aa, tls: false, tfo: false, servername: kr.jasonpan8889.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: kr.jasonpan8889.workers.dev}}}
-  - {name: 韩国, server: 130.162.144.196, port: 80, client-fingerprint: chrome, type: vless, uuid: 9fd77661-682d-4f85-b5c3-90651ba6dde8, tls: false, tfo: false, servername: jpzidong.jaley73356.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jpzidong.jaley73356.workers.dev}}}
   - {name:  WARP,type: wireguard,server: 162.159.195.51,port: 2506,ip: 172.16.0.2,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,private-key: YILWEfFjlA0UUkufhD+t96fG5cy0kmsiJy+ycSG1dls=,mtu: 1280,udp: true}
 proxy-groups:
   - name: 🚀 节点选择
@@ -27,7 +26,6 @@ proxy-groups:
       - DIRECT
       - 东京
       - 新加坡
-      - 韩国
       - WARP
   - name: ♻️ 自动选择
     type: url-test
@@ -37,7 +35,6 @@ proxy-groups:
     proxies:
       - 东京
       - 新加坡
-      - 韩国
       - WARP
   - name: 🌍 国外媒体
     type: select
@@ -47,7 +44,6 @@ proxy-groups:
       - 🎯 全球直连
       - 东京
       - 新加坡
-      - 韩国
       - WARP
   - name: 📲 电报信息
     type: select
@@ -56,7 +52,6 @@ proxy-groups:
       - 🎯 全球直连
       - 东京
       - 新加坡
-      - 韩国
       - WARP
   - name: Ⓜ️ 微软服务
     type: select
@@ -65,7 +60,6 @@ proxy-groups:
       - 🚀 节点选择
       - 东京
       - 新加坡
-      - 韩国
       - WARP
   - name: 🍎 苹果服务
     type: select
@@ -74,7 +68,6 @@ proxy-groups:
       - 🎯 全球直连
       - 东京
       - 新加坡
-      - 韩国
       - WARP
   - name: 📢 谷歌FCM
     type: select
@@ -84,7 +77,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 东京
       - 新加坡
-      - 韩国
       - WARP
   - name: 🎯 全球直连
     type: select
@@ -110,7 +102,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 东京
       - 新加坡
-      - 韩国
       - WARP
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
