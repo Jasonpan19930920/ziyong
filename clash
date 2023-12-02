@@ -16,10 +16,10 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: 东京（官方）, server: ymyx.pyl522633.eu.org , port: 80, client-fingerprint: chrome, type: vless, uuid: 6baf5b37-cf47-420d-8e84-82c4e92078ef, tls: false, tfo: false, servername: jasonpyl.pyl19930920.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jasonpyl.pyl19930920.workers.dev}}}
-  - {name: 香港（官方）, server: ymyx.pyl522633.eu.org , port: 80, client-fingerprint: chrome, type: vless, uuid: 65e364b3-8d0b-410e-b3cc-f345845834aa, tls: false, tfo: false, servername: kr.jasonpan8889.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: kr.jasonpan8889.workers.dev}}}
+  - {name: 新加坡（官方）, server: ymyx.pyl522633.eu.org , port: 80, client-fingerprint: chrome, type: vless, uuid: 65e364b3-8d0b-410e-b3cc-f345845834aa, tls: false, tfo: false, servername: kr.jasonpan8889.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: kr.jasonpan8889.workers.dev}}}
   - {name: 美国（官方）, server: ymyx.pyl522633.eu.org , port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: usa.jaley73356.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: usa.jaley73356.workers.dev}}}
-  - {name: 东京（反代）, server: gffd.paopao666.eu.org , port: 80, client-fingerprint: chrome, type: vless, uuid: 6baf5b37-cf47-420d-8e84-82c4e92078ef, tls: false, tfo: false, servername: jasonpyl.pyl19930920.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jasonpyl.pyl19930920.workers.dev}}}
-  - {name: 香港（反代）, server: gffd.paopao666.eu.org , port: 80, client-fingerprint: chrome, type: vless, uuid: 65e364b3-8d0b-410e-b3cc-f345845834aa, tls: false, tfo: false, servername: kr.jasonpan8889.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: kr.jasonpan8889.workers.dev}}}
+  - {name: 东京（反代）, server: jp.paopao666.eu.org , port: 80, client-fingerprint: chrome, type: vless, uuid: 6baf5b37-cf47-420d-8e84-82c4e92078ef, tls: false, tfo: false, servername: jasonpyl.pyl19930920.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jasonpyl.pyl19930920.workers.dev}}}
+  - {name: 新加坡（反代）, server: sg.paopao666.eu.org , port: 80, client-fingerprint: chrome, type: vless, uuid: 65e364b3-8d0b-410e-b3cc-f345845834aa, tls: false, tfo: false, servername: kr.jasonpan8889.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: kr.jasonpan8889.workers.dev}}}
   - {name: 美国（反代）, server: usa.paopao666.eu.org , port: 80, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, tfo: false, servername: usa.jaley73356.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: usa.jaley73356.workers.dev}}}
   - {name: 德国, server: fi1.bot-hosting.net , port: 6100, client-fingerprint: chrome, type: vless, uuid: 77be33ae-923d-4ba9-93cf-7652929e62c6, tls: false, tfo: false, servername: fi1.bot-hosting.net, skip-cert-verify: false, network: ws, ws-opts: {path: "/", headers: {Host: fi1.bot-hosting.net}}}
   - {name: replit, server: jason.jasonpan8889.repl.co, port: 443, type: trojan, password: 7abfbd35-05e3-441c-9af2-63cd01062e77, skip-cert-verify: true, network: ws, ws-opts: {path: "/tr?ed2049"}, udp: true}
@@ -31,10 +31,10 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 东京（官方）
-      - 香港（官方）
+      - 新加坡（官方）
       - 美国（官方）
       - 东京（反代）
-      - 香港（反代）
+      - 新加坡（反代）
       - 美国（反代）
       - 德国
       - replit
@@ -46,10 +46,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 东京（官方）
-      - 香港（官方）
+      - 新加坡（官方）
       - 美国（官方）
       - 东京（反代）
-      - 香港（反代）
+      - 新加坡（反代）
       - 美国（反代）
       - 德国
       - replit
@@ -61,10 +61,10 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 东京（官方）
-      - 香港（官方）
+      - 新加坡（官方）
       - 美国（官方）
       - 东京（反代）
-      - 香港（反代）
+      - 新加坡（反代）
       - 美国（反代）
       - 德国
       - replit
@@ -75,10 +75,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 东京（官方）
-      - 香港（官方）
+      - 新加坡（官方）
       - 美国（官方）
       - 东京（反代）
-      - 香港（反代）
+      - 新加坡（反代）
       - 美国（反代）
       - 德国
       - replit
@@ -89,10 +89,10 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - 东京（官方）
-      - 香港（官方）
+      - 新加坡（官方）
       - 美国（官方）
       - 东京（反代）
-      - 香港（反代）
+      - 新加坡（反代）
       - 美国（反代）
       - 德国
       - replit
@@ -103,10 +103,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 东京（官方）
-      - 香港（官方）
+      - 新加坡（官方）
       - 美国（官方）
       - 东京（反代）
-      - 香港（反代）
+      - 新加坡（反代）
       - 美国（反代）
       - 德国
       - replit
@@ -118,10 +118,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 东京（官方）
-      - 香港（官方）
+      - 新加坡（官方）
       - 美国（官方）
       - 东京（反代）
-      - 香港（反代）
+      - 新加坡（反代）
       - 美国（反代）
       - 德国
       - replit
@@ -149,10 +149,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 东京（官方）
-      - 香港（官方）
+      - 新加坡（官方）
       - 美国（官方）
       - 东京（反代）
-      - 香港（反代）
+      - 新加坡（反代）
       - 美国（反代）
       - 德国
       - replit
