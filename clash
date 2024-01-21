@@ -71,7 +71,7 @@ proxy-groups:
       - 美国
       - 新加坡
       - 韩国
-      - 新加坡反代
+      - 德国
       - WARP
   - name: 🍎 苹果服务
     type: select
