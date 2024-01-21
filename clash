@@ -16,7 +16,6 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: 美国, server: ymyx.pyl522633.eu.org, port: 443, type: vless, uuid: ef4b2ddd-8ff9-4b53-b095-82ca19eb2f8f, tls: true, tfo: false, skip-cert-verify: false, servername: meiguo.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: meiguo.pages.dev}}}
-  - {name: 新加坡, server: ymyx.pyl522633.eu.org, port: 443, type: vless, uuid: f8c56045-326e-4a45-8029-632564822042, tls: true, tfo: false, skip-cert-verify: false, servername:  xinjiapo-c33.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xinjiapo-c33.pages.dev}}}
   - {name: 韩国, server: ymyx.pyl522633.eu.org, port: 443, type: vless, uuid: fc875562-07ba-4e11-b395-2b783dd383f7, tls: true, tfo: false, skip-cert-verify: false, servername: hanguo.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.pages.dev}}}
   - {name: 德国, server: ymyx.pyl522633.eu.org, port: 443, type: vless, uuid: f8c56045-326e-4a45-8889-632564811042, tls: true, tfo: false, skip-cert-verify: false, servername: sgzd.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sgzd.pages.dev}}}
   - {name: 芬兰, server: fi1.bot-hosting.net , port: 6100, client-fingerprint: chrome, type: vless, uuid: 77be33ae-923d-4ba9-93cf-7652929e62c6, tls: false, tfo: false, servername: fi1.bot-hosting.net, skip-cert-verify: false, network: ws, ws-opts: {path: "/", headers: {Host: fi1.bot-hosting.net}}}
@@ -28,7 +27,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 美国
-      - 新加坡
       - 韩国
       - 德国
       - 芬兰
@@ -40,7 +38,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 美国
-      - 新加坡
       - 韩国
       - 德国
       - 芬兰
@@ -52,7 +49,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 美国
-      - 新加坡
       - 韩国
       - 德国
       - 芬兰
@@ -63,7 +59,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 美国
-      - 新加坡
       - 韩国
       - 德国
       - 芬兰
@@ -74,7 +69,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - 美国
-      - 新加坡
       - 韩国
       - 德国
       - 芬兰
@@ -85,7 +79,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 美国
-      - 新加坡
       - 韩国
       - 德国
       - 芬兰
@@ -97,7 +90,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 美国
-      - 新加坡
       - 韩国
       - 德国
       - 芬兰
@@ -125,7 +117,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 美国
-      - 新加坡
       - 韩国
       - 德国
       - 芬兰
