@@ -15,9 +15,9 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"80":"001.pyl19930920.workers.dev_1","type":"trojan","server":"www.visa.com.sg","port":80,"udp":true,"password":"panyanlin123","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"001.pyl19930920.workers.dev"}}}
-  - {"8880":"001.pyl19930920.workers.dev_2","type":"trojan","server":"www.visa.com.sg","port":8880,"udp":true,"password":"panyanlin123","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"001.pyl19930920.workers.dev"}}}
-  - {"8080":"001.pyl19930920.workers.dev_3","type":"trojan","server":"www.visa.com.sg","port":8080,"udp":true,"password":"panyanlin123","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"001.pyl19930920.workers.dev"}}}
+  - {"name":"80","type":"trojan","server":"www.visa.com.sg","port":80,"udp":true,"password":"panyanlin123","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"001.pyl19930920.workers.dev"}}}
+  - {"name":"8880","type":"trojan","server":"www.visa.com.sg","port":8880,"udp":true,"password":"panyanlin123","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"001.pyl19930920.workers.dev"}}}
+  - {"name":"8080","type":"trojan","server":"www.visa.com.sg","port":8080,"udp":true,"password":"panyanlin123","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"001.pyl19930920.workers.dev"}}}
   - {name: 芬兰, server: fi1.bot-hosting.net , port: 6100, client-fingerprint: chrome, type: vless, uuid: 77be33ae-923d-4ba9-93cf-7652929e62c6, tls: false, tfo: false, servername: fi1.bot-hosting.net, skip-cert-verify: false, network: ws, ws-opts: {path: "/", headers: {Host: fi1.bot-hosting.net}}}
   - {name: 新加坡（固定）, server: 194.53.53.3, port: 80, type: vless, uuid: d342d11e-d154-4583-b36e-528ab1f0afa4, tls: false, tfo: false, skip-cert-verify: false, servername: zdjd.jaley73356.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: zdjd.jaley73356.workers.dev}}}
 proxy-groups:
